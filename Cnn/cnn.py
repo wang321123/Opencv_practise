@@ -75,7 +75,7 @@ print(z)
 z=torch.zeros(2,4,dtype=torch.long)
 print(z)
 '''
-'''
+
 x=torch.ones(2,2,requires_grad=True)#可求导
 print(x)
 print(x.grad_fn)
@@ -101,4 +101,4 @@ b=b.mean()
 b.backward()
 print(b.grad_fn)
 print(a.grad)
-'''
+
